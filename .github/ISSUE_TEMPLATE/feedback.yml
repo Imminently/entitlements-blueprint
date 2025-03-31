@@ -1,0 +1,22 @@
+name: 📝 Feedback or Improvement Suggestion
+description: Share suggestions for improving the repo, docs, examples, or anything else.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love hearing how this repo could be more useful. Whether it's content, clarity, or structure — drop your thoughts below.
+
+  - type: input
+    id: area
+    attributes:
+      label: Which part of the repo are you commenting on?
+      placeholder: e.g. rule-graph-explainer.md, residency-example.md, README, etc.
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would make it better?
+      placeholder: Be specific! New content, better examples, diagrams, etc.
+    validations:
+      required: true

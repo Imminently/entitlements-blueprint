@@ -1,0 +1,819 @@
+{
+    "id": "individual/1/7b10a0ca-baef-4f84-9090-6a50f4f288ed",
+    "text": "the individual is qualified for an age pension under SSA s 43(1)",
+    "value": {
+        "temporal": {
+            "ranges": [
+                {
+                    "r": {
+                        "start": "-271821-04-20T00:00:00.000Z",
+                        "end": "2016-01-01T00:00:00.000Z"
+                    },
+                    "v": false
+                },
+                {
+                    "r": {
+                        "start": "2016-01-01T00:00:00.000Z",
+                        "end": "+275760-09-13T00:00:00.000Z"
+                    },
+                    "v": true
+                }
+            ]
+        }
+    },
+    "entity": "individual",
+    "index": "1",
+    "children": [
+        {
+            "id": "individual/1/97a2734f-7593-46ef-8aed-0e5e3c0d4b0f",
+            "text": "the individual has reached pension age",
+            "value": {
+                "temporal": {
+                    "ranges": [
+                        {
+                            "r": {
+                                "start": "-271821-04-20T00:00:00.000Z",
+                                "end": "2016-01-01T00:00:00.000Z"
+                            },
+                            "v": false
+                        },
+                        {
+                            "r": {
+                                "start": "2016-01-01T00:00:00.000Z",
+                                "end": "+275760-09-13T00:00:00.000Z"
+                            },
+                            "v": true
+                        }
+                    ]
+                }
+            },
+            "entity": "individual",
+            "index": "1",
+            "children": [
+                {
+                    "id": "individual/1/080008b5-043a-463f-8e75-caee0092705c",
+                    "text": "the date the individual reaches pension age",
+                    "value": "2016-01-01",
+                    "entity": "individual",
+                    "index": "1",
+                    "children": [
+                        {
+                            "id": "individual/1/10de8f1c-8c9b-4153-8695-0df2259bfa03",
+                            "text": "the individual's pension age in months",
+                            "value": 780,
+                            "entity": "individual",
+                            "index": "1",
+                            "children": [
+                                {
+                                    "id": "individual/1/cf6f2774-cf9e-45a0-89fc-98b88f04c0ea",
+                                    "text": "the individual is a woman",
+                                    "value": true,
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "children": [
+                                        {
+                                            "id": "individual/1/eab51f3a-e780-4687-8024-ad3a0c036a83",
+                                            "text": "the individual is a man",
+                                            "value": false,
+                                            "entity": "individual",
+                                            "index": "1",
+                                            "children": [
+                                                {
+                                                    "id": "individual/1/2437538d-2b28-4f20-b1dc-bf145c56dfbf",
+                                                    "text": "the individual sex",
+                                                    "value": "male",
+                                                    "entity": "individual",
+                                                    "index": "1",
+                                                    "history": [
+                                                        {
+                                                            "source": {
+                                                                "id": "f53d1dda-3352-4a46-a4b3-53e462f896d4",
+                                                                "type": "api"
+                                                            },
+                                                            "when": 1743377494481,
+                                                            "who": {
+                                                                "id": "a8958392-07f5-4301-bf74-509fde80ca8c"
+                                                            },
+                                                            "value": "male"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "children_ids": [
+                                                "individual/1/2437538d-2b28-4f20-b1dc-bf145c56dfbf"
+                                            ],
+                                            "reference": {
+                                                "document": "/System rules/Entity mapping/Individual.docx"
+                                            }
+                                        }
+                                    ],
+                                    "children_ids": [
+                                        "individual/1/eab51f3a-e780-4687-8024-ad3a0c036a83"
+                                    ],
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual.docx"
+                                    }
+                                },
+                                {
+                                    "id": "individual/1/debcccab-e382-466e-b027-bbaa9b267fab",
+                                    "text": "the individual date of birth",
+                                    "value": "1951-01-01",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "history": [
+                                        {
+                                            "source": {
+                                                "id": "f53d1dda-3352-4a46-a4b3-53e462f896d4",
+                                                "type": "api"
+                                            },
+                                            "when": 1743377494482,
+                                            "who": {
+                                                "id": "a8958392-07f5-4301-bf74-509fde80ca8c"
+                                            },
+                                            "value": "1951-01-01"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "children_ids": [
+                                "individual/1/eab51f3a-e780-4687-8024-ad3a0c036a83",
+                                "individual/1/cf6f2774-cf9e-45a0-89fc-98b88f04c0ea",
+                                "individual/1/debcccab-e382-466e-b027-bbaa9b267fab"
+                            ],
+                            "reference": {
+                                "document": "/Source rules/Legislation/Social Security Act 1991/Part 1.2 - Definitions/SSA s 23(5A)-(5D) Pension age.xlsx",
+                                "line": "Column 5",
+                                "title": "pension age (months)"
+                            }
+                        }
+                    ],
+                    "children_ids": [
+                        "individual/1/debcccab-e382-466e-b027-bbaa9b267fab",
+                        "individual/1/10de8f1c-8c9b-4153-8695-0df2259bfa03"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/Age.docx"
+                    }
+                }
+            ],
+            "children_ids": [
+                "individual/1/080008b5-043a-463f-8e75-caee0092705c"
+            ],
+            "reference": {
+                "document": "/System rules/Interpretation/Age.docx"
+            }
+        },
+        {
+            "id": "individual/1/8d656cf3-93d4-4932-ac6a-1b6dfdb685f5",
+            "text": "the individual has 10 years qualifying Australian residence",
+            "value": true,
+            "entity": "individual",
+            "index": "1",
+            "children": [
+                {
+                    "id": "individual/1/aa61eef2-3d43-4054-a4d9-eb09601e873d",
+                    "text": "the individual has been an Australian resident for a continuous period of not less than 10 years at any time",
+                    "value": true,
+                    "entity": "individual",
+                    "index": "1",
+                    "children": [
+                        {
+                            "id": "de7b6c7f-e6db-41f7-81ef-41ccc1b10f04",
+                            "text": "the first day of the assessment period",
+                            "value": "2023-01-01",
+                            "entity": "global",
+                            "children": [
+                                {
+                                    "id": "4247e725-0655-4206-88fb-57ef760e5dd4",
+                                    "text": "the start of the assessment period",
+                                    "value": "2023-01-01",
+                                    "entity": "global",
+                                    "history": [
+                                        {
+                                            "source": {
+                                                "id": "f53d1dda-3352-4a46-a4b3-53e462f896d4",
+                                                "type": "api"
+                                            },
+                                            "when": 1743377494482,
+                                            "who": {
+                                                "id": "a8958392-07f5-4301-bf74-509fde80ca8c"
+                                            },
+                                            "value": "2023-01-01"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "children_ids": [
+                                "4247e725-0655-4206-88fb-57ef760e5dd4"
+                            ],
+                            "reference": {
+                                "document": "/System rules/Entity mapping/Claim data.docx"
+                            }
+                        },
+                        {
+                            "id": "individual/1/0c524d77-6d5e-4af3-a26b-8fbd2f49fe30",
+                            "text": "the individual is an Australian resident",
+                            "value": {
+                                "temporal": {
+                                    "ranges": [
+                                        {
+                                            "r": {
+                                                "start": "-271821-04-20T00:00:00.000Z",
+                                                "end": "2000-01-01T00:00:00.000Z"
+                                            },
+                                            "v": null
+                                        },
+                                        {
+                                            "r": {
+                                                "start": "2000-01-01T00:00:00.000Z",
+                                                "end": "+275760-09-13T00:00:00.000Z"
+                                            },
+                                            "v": true
+                                        }
+                                    ]
+                                }
+                            },
+                            "entity": "individual",
+                            "index": "1",
+                            "children": [
+                                {
+                                    "id": "individual/1/d2735588-9efa-47f3-9119-48bf52dc3a3d",
+                                    "text": "the individual was an Australian resident initially",
+                                    "value": false,
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "children": [
+                                        {
+                                            "id": "individual/1/residency/1/dd24d16d-5706-425e-8123-f516215d9d25",
+                                            "text": "the residency first reside start date",
+                                            "value": "2000-01-01",
+                                            "entity": "residency",
+                                            "index": "1",
+                                            "parent": "individual/1",
+                                            "history": [
+                                                {
+                                                    "source": {
+                                                        "id": "f53d1dda-3352-4a46-a4b3-53e462f896d4",
+                                                        "type": "api"
+                                                    },
+                                                    "when": 1743377494482,
+                                                    "who": {
+                                                        "id": "a8958392-07f5-4301-bf74-509fde80ca8c"
+                                                    },
+                                                    "value": "2000-01-01"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "individual/1/9860088f-69a3-473d-829e-e7fc594a3b21",
+                                            "text": "the start date of the individual's earliest residency record",
+                                            "value": "2000-01-01",
+                                            "entity": "individual",
+                                            "index": "1",
+                                            "children": [
+                                                {
+                                                    "id": "individual/1/residency/1/3d597bc1-b698-4645-9480-b3a9e51050b2",
+                                                    "text": "the residency start date",
+                                                    "value": "2000-01-01",
+                                                    "entity": "residency",
+                                                    "index": "1",
+                                                    "parent": "individual/1",
+                                                    "history": [
+                                                        {
+                                                            "source": {
+                                                                "id": "f53d1dda-3352-4a46-a4b3-53e462f896d4",
+                                                                "type": "api"
+                                                            },
+                                                            "when": 1743377494482,
+                                                            "who": {
+                                                                "id": "a8958392-07f5-4301-bf74-509fde80ca8c"
+                                                            },
+                                                            "value": "2000-01-01"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "children_ids": [
+                                                "individual/1/residency/1/3d597bc1-b698-4645-9480-b3a9e51050b2"
+                                            ],
+                                            "reference": {
+                                                "document": "/System rules/Entity mapping/Individual.docx"
+                                            }
+                                        },
+                                        {
+                                            "id": "individual/1/residency/1/1cac8540-120e-45b1-9174-b9a63f5f04d7",
+                                            "text": "the residency is Australian resident",
+                                            "value": true,
+                                            "entity": "residency",
+                                            "index": "1",
+                                            "parent": "individual/1",
+                                            "history": [
+                                                {
+                                                    "source": {
+                                                        "id": "f53d1dda-3352-4a46-a4b3-53e462f896d4",
+                                                        "type": "api"
+                                                    },
+                                                    "when": 1743377494482,
+                                                    "who": {
+                                                        "id": "a8958392-07f5-4301-bf74-509fde80ca8c"
+                                                    },
+                                                    "value": true
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "children_ids": [
+                                        "individual/1/residency/1/dd24d16d-5706-425e-8123-f516215d9d25",
+                                        "individual/1/residency/1/3d597bc1-b698-4645-9480-b3a9e51050b2",
+                                        "individual/1/9860088f-69a3-473d-829e-e7fc594a3b21",
+                                        "individual/1/9860088f-69a3-473d-829e-e7fc594a3b21",
+                                        "individual/1/residency/1/1cac8540-120e-45b1-9174-b9a63f5f04d7"
+                                    ],
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual.docx"
+                                    }
+                                }
+                            ],
+                            "children_ids": [
+                                "individual/1/d2735588-9efa-47f3-9119-48bf52dc3a3d",
+                                "individual/1/residency/1/3d597bc1-b698-4645-9480-b3a9e51050b2",
+                                "individual/1/residency/1/1cac8540-120e-45b1-9174-b9a63f5f04d7"
+                            ],
+                            "reference": {
+                                "document": "/System rules/Entity mapping/Individual.docx"
+                            }
+                        }
+                    ],
+                    "children_ids": [
+                        "individual/1/debcccab-e382-466e-b027-bbaa9b267fab",
+                        "de7b6c7f-e6db-41f7-81ef-41ccc1b10f04",
+                        "individual/1/0c524d77-6d5e-4af3-a26b-8fbd2f49fe30"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/Residency.docx"
+                    }
+                },
+                {
+                    "id": "individual/1/eee55e15-36f4-4c77-8555-c89be8798510",
+                    "text": "the individual has been an Australian resident for a continuous period of 5 years or more at any time",
+                    "value": true,
+                    "entity": "individual",
+                    "index": "1",
+                    "children_ids": [
+                        "individual/1/debcccab-e382-466e-b027-bbaa9b267fab",
+                        "de7b6c7f-e6db-41f7-81ef-41ccc1b10f04",
+                        "individual/1/0c524d77-6d5e-4af3-a26b-8fbd2f49fe30"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/Residency.docx"
+                    }
+                },
+                {
+                    "id": "individual/1/16fb002d-ac78-475d-9e86-7a35a498bb21",
+                    "text": "the individual has been an Australian resident for more than 10 years total across multiple periods",
+                    "value": true,
+                    "entity": "individual",
+                    "index": "1",
+                    "children_ids": [
+                        "individual/1/debcccab-e382-466e-b027-bbaa9b267fab",
+                        "de7b6c7f-e6db-41f7-81ef-41ccc1b10f04",
+                        "individual/1/0c524d77-6d5e-4af3-a26b-8fbd2f49fe30"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/Residency.docx"
+                    }
+                }
+            ],
+            "children_ids": [
+                "individual/1/aa61eef2-3d43-4054-a4d9-eb09601e873d",
+                "individual/1/eee55e15-36f4-4c77-8555-c89be8798510",
+                "individual/1/16fb002d-ac78-475d-9e86-7a35a498bb21"
+            ],
+            "reference": {
+                "document": "/Source rules/Legislation/Social Security Act 1991/Part 1.2 - Definitions/SSA - Pt 1.2.docx.docx",
+                "line": 21,
+                "title": "SSA s 7(5)"
+            }
+        },
+        {
+            "id": "individual/1/2f23e32a-f460-4c6c-aa81-4c0b8a82fe5e",
+            "text": "the individual has a qualifying residence exemption",
+            "value": {
+                "temporal": {
+                    "ranges": [
+                        {
+                            "r": {
+                                "start": "-271821-04-20T00:00:00.000Z",
+                                "end": "2000-01-01T00:00:00.000Z"
+                            },
+                            "v": null
+                        },
+                        {
+                            "r": {
+                                "start": "2000-01-01T00:00:00.000Z",
+                                "end": "+275760-09-13T00:00:00.000Z"
+                            },
+                            "v": false
+                        }
+                    ]
+                }
+            },
+            "entity": "individual",
+            "index": "1",
+            "children": [
+                {
+                    "id": "individual/1/residency/1/4617b8c2-7414-4496-b35f-acdd586cafd0",
+                    "text": "the residency has a qualifying residence exemption",
+                    "value": false,
+                    "entity": "residency",
+                    "index": "1",
+                    "parent": "individual/1",
+                    "children": [
+                        {
+                            "id": "individual/1/residency/1/5c6575ed-9c07-47bf-88ba-5520838e23a3",
+                            "text": "the residency QRE indicator",
+                            "value": false,
+                            "entity": "residency",
+                            "index": "1",
+                            "parent": "individual/1",
+                            "history": [
+                                {
+                                    "source": {
+                                        "id": "f53d1dda-3352-4a46-a4b3-53e462f896d4",
+                                        "type": "api"
+                                    },
+                                    "when": 1743377494482,
+                                    "who": {
+                                        "id": "a8958392-07f5-4301-bf74-509fde80ca8c"
+                                    },
+                                    "value": false
+                                }
+                            ]
+                        }
+                    ],
+                    "children_ids": [
+                        "individual/1/residency/1/5c6575ed-9c07-47bf-88ba-5520838e23a3"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Entity mapping/Residency.docx"
+                    }
+                }
+            ],
+            "children_ids": [
+                "individual/1/residency/1/3d597bc1-b698-4645-9480-b3a9e51050b2",
+                "individual/1/residency/1/4617b8c2-7414-4496-b35f-acdd586cafd0"
+            ],
+            "reference": {
+                "document": "/System rules/Entity mapping/Individual.docx"
+            }
+        },
+        {
+            "id": "individual/1/6c68ba1e-a1b9-4e93-830a-5911a280db5f",
+            "text": "the individual was receiving a widow B pension, a widow allowance, a mature age allowance or a partner allowance, immediately before reaching pension age",
+            "entity": "individual",
+            "index": "1",
+            "children": [
+                {
+                    "id": "individual/1/0a49e26f-4ab7-4ecd-b566-e9e47fbbd391",
+                    "text": "the individual was receiving a widow B pension immediately before reaching pension age",
+                    "entity": "individual",
+                    "index": "1",
+                    "children": [
+                        {
+                            "id": "individual/1/1ebd32e1-f6ca-4755-95b5-1c22f8a9c20b",
+                            "text": "the date immediately before the individual reaches pension age",
+                            "value": "2015-12-31",
+                            "entity": "individual",
+                            "index": "1",
+                            "children_ids": [
+                                "individual/1/080008b5-043a-463f-8e75-caee0092705c"
+                            ],
+                            "reference": {
+                                "document": "/System rules/Interpretation/Age.docx"
+                            }
+                        },
+                        {
+                            "id": "individual/1/3f56412d-f7aa-4a23-b640-04400b2f9330",
+                            "text": "the individual is receiving a widow B pension",
+                            "entity": "individual",
+                            "index": "1",
+                            "children": [
+                                {
+                                    "id": "individual/1/c8c9106d-30ff-4d69-8fc9-8c5b981b4a12",
+                                    "text": "the individual is receiving a widow B pension (confirmed)",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                    }
+                                },
+                                {
+                                    "id": "individual/1/b0b82f94-4309-4bef-9377-1a042aa6ae9f",
+                                    "text": "the date the individual first receives a widow B pension (provisional)",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "children": [
+                                        {
+                                            "id": "individual/1/17cd1d59-3a5b-4db7-87fb-3071daac3c94",
+                                            "text": "the individual is receiving a widow B pension (provisional)",
+                                            "entity": "individual",
+                                            "index": "1",
+                                            "reference": {
+                                                "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                            }
+                                        }
+                                    ],
+                                    "children_ids": [
+                                        "individual/1/17cd1d59-3a5b-4db7-87fb-3071daac3c94"
+                                    ],
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                    }
+                                }
+                            ],
+                            "children_ids": [
+                                "individual/1/17cd1d59-3a5b-4db7-87fb-3071daac3c94",
+                                "individual/1/c8c9106d-30ff-4d69-8fc9-8c5b981b4a12",
+                                "individual/1/b0b82f94-4309-4bef-9377-1a042aa6ae9f"
+                            ]
+                        }
+                    ],
+                    "children_ids": [
+                        "individual/1/1ebd32e1-f6ca-4755-95b5-1c22f8a9c20b",
+                        "individual/1/3f56412d-f7aa-4a23-b640-04400b2f9330"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+                    }
+                },
+                {
+                    "id": "individual/1/1b2ce0c3-f5dc-4d88-a4a7-495f7576a161",
+                    "text": "the individual was receiving a widow allowance immediately before reaching pension age",
+                    "entity": "individual",
+                    "index": "1",
+                    "children": [
+                        {
+                            "id": "individual/1/5b893bc8-db7d-4bc6-b5d7-c06dc8ccc15a",
+                            "text": "the individual is receiving a widow allowance",
+                            "entity": "individual",
+                            "index": "1",
+                            "children": [
+                                {
+                                    "id": "individual/1/1e2982f6-14e3-430d-b03f-163710b5998b",
+                                    "text": "the individual is receiving a widow allowance (confirmed)",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                    }
+                                },
+                                {
+                                    "id": "individual/1/f0d933a5-b612-4ee3-927c-6dfa6d45ecd9",
+                                    "text": "the date the individual first receives a widow allowance (provisional)",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "children": [
+                                        {
+                                            "id": "individual/1/f71e7e36-8e24-4e6f-89a4-e0cbc8ae5c26",
+                                            "text": "the individual is receiving a widow allowance (provisional)",
+                                            "entity": "individual",
+                                            "index": "1",
+                                            "reference": {
+                                                "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                            }
+                                        }
+                                    ],
+                                    "children_ids": [
+                                        "individual/1/f71e7e36-8e24-4e6f-89a4-e0cbc8ae5c26"
+                                    ],
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                    }
+                                }
+                            ],
+                            "children_ids": [
+                                "individual/1/f71e7e36-8e24-4e6f-89a4-e0cbc8ae5c26",
+                                "individual/1/1e2982f6-14e3-430d-b03f-163710b5998b",
+                                "individual/1/f0d933a5-b612-4ee3-927c-6dfa6d45ecd9"
+                            ]
+                        }
+                    ],
+                    "children_ids": [
+                        "individual/1/1ebd32e1-f6ca-4755-95b5-1c22f8a9c20b",
+                        "individual/1/5b893bc8-db7d-4bc6-b5d7-c06dc8ccc15a"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+                    }
+                },
+                {
+                    "id": "individual/1/2dfd1bdc-6cd2-47ff-bc75-992204010d42",
+                    "text": "the individual was receiving a mature age allowance immediately before reaching pension age",
+                    "entity": "individual",
+                    "index": "1",
+                    "children": [
+                        {
+                            "id": "individual/1/55cf7ee4-7c51-48da-8835-11d5f1fe935d",
+                            "text": "the individual is receiving a mature age allowance",
+                            "entity": "individual",
+                            "index": "1",
+                            "children": [
+                                {
+                                    "id": "individual/1/c9df17b3-4ade-45b5-8999-cbd1f2f7aeb2",
+                                    "text": "the individual is receiving a mature age allowance (confirmed)",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                    }
+                                },
+                                {
+                                    "id": "individual/1/1a05b004-d445-4e13-9871-d5dca3a71dec",
+                                    "text": "the date the individual first receives a mature age allowance (provisional)",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "children": [
+                                        {
+                                            "id": "individual/1/d6c1f6d8-f7e2-417e-b7e6-b62064c01143",
+                                            "text": "the individual is receiving a mature age allowance (provisional)",
+                                            "entity": "individual",
+                                            "index": "1",
+                                            "reference": {
+                                                "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                            }
+                                        }
+                                    ],
+                                    "children_ids": [
+                                        "individual/1/d6c1f6d8-f7e2-417e-b7e6-b62064c01143"
+                                    ],
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                    }
+                                }
+                            ],
+                            "children_ids": [
+                                "individual/1/d6c1f6d8-f7e2-417e-b7e6-b62064c01143",
+                                "individual/1/c9df17b3-4ade-45b5-8999-cbd1f2f7aeb2",
+                                "individual/1/1a05b004-d445-4e13-9871-d5dca3a71dec"
+                            ]
+                        }
+                    ],
+                    "children_ids": [
+                        "individual/1/1ebd32e1-f6ca-4755-95b5-1c22f8a9c20b",
+                        "individual/1/55cf7ee4-7c51-48da-8835-11d5f1fe935d"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+                    }
+                },
+                {
+                    "id": "individual/1/eb1c6b65-ffd3-4e87-b6af-85d23f174979",
+                    "text": "the individual was receiving a partner allowance immediately before reaching pension age",
+                    "entity": "individual",
+                    "index": "1",
+                    "children": [
+                        {
+                            "id": "individual/1/cef1e91d-ca12-4429-9ac8-43f27939ba35",
+                            "text": "the individual is receiving a partner allowance",
+                            "entity": "individual",
+                            "index": "1",
+                            "children": [
+                                {
+                                    "id": "individual/1/44cea3f5-4e76-47ca-81dc-a744bcaebbee",
+                                    "text": "the individual is receiving a partner allowance (confirmed)",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                    }
+                                },
+                                {
+                                    "id": "individual/1/a2b41f5b-06c6-42a7-a544-cc81e2550b21",
+                                    "text": "the date the individual first receives a partner allowance (provisional)",
+                                    "entity": "individual",
+                                    "index": "1",
+                                    "children": [
+                                        {
+                                            "id": "individual/1/7cc21fc1-bacb-4ce6-8eb8-0608e647e12e",
+                                            "text": "the individual is receiving a partner allowance (provisional)",
+                                            "entity": "individual",
+                                            "index": "1",
+                                            "reference": {
+                                                "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                            }
+                                        }
+                                    ],
+                                    "children_ids": [
+                                        "individual/1/7cc21fc1-bacb-4ce6-8eb8-0608e647e12e"
+                                    ],
+                                    "reference": {
+                                        "document": "/System rules/Entity mapping/Individual - Entitlements received.docx"
+                                    }
+                                }
+                            ],
+                            "children_ids": [
+                                "individual/1/7cc21fc1-bacb-4ce6-8eb8-0608e647e12e",
+                                "individual/1/44cea3f5-4e76-47ca-81dc-a744bcaebbee",
+                                "individual/1/a2b41f5b-06c6-42a7-a544-cc81e2550b21"
+                            ]
+                        }
+                    ],
+                    "children_ids": [
+                        "individual/1/1ebd32e1-f6ca-4755-95b5-1c22f8a9c20b",
+                        "individual/1/cef1e91d-ca12-4429-9ac8-43f27939ba35"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+                    }
+                }
+            ],
+            "children_ids": [
+                "individual/1/0a49e26f-4ab7-4ecd-b566-e9e47fbbd391",
+                "individual/1/1b2ce0c3-f5dc-4d88-a4a7-495f7576a161",
+                "individual/1/2dfd1bdc-6cd2-47ff-bc75-992204010d42",
+                "individual/1/eb1c6b65-ffd3-4e87-b6af-85d23f174979"
+            ],
+            "reference": {
+                "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+            }
+        },
+        {
+            "id": "individual/1/ac6c77ef-4162-4734-82f7-3a5da0650f39",
+            "text": "the individual reached pension age before 20 March 1997",
+            "value": false,
+            "entity": "individual",
+            "index": "1",
+            "children_ids": [
+                "individual/1/080008b5-043a-463f-8e75-caee0092705c"
+            ],
+            "reference": {
+                "document": "/System rules/Interpretation/Age.docx"
+            }
+        },
+        {
+            "id": "individual/1/716a9340-1061-4ae8-bf1e-4005fade862d",
+            "text": "the individual was receiving a widow B pension, a widow allowance or a partner allowance immediately before 20 March 1997",
+            "entity": "individual",
+            "index": "1",
+            "children": [
+                {
+                    "id": "individual/1/76e9a85a-4e66-47a0-a468-ede626135a00",
+                    "text": "the individual was receiving a widow B pension immediately before 20 March 1997",
+                    "entity": "individual",
+                    "index": "1",
+                    "children_ids": [
+                        "individual/1/3f56412d-f7aa-4a23-b640-04400b2f9330"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+                    }
+                },
+                {
+                    "id": "individual/1/20382ff5-6908-4f1a-98e5-f8c3a62ebe5d",
+                    "text": "the individual was receiving a widow allowance immediately before 20 March 1997",
+                    "entity": "individual",
+                    "index": "1",
+                    "children_ids": [
+                        "individual/1/5b893bc8-db7d-4bc6-b5d7-c06dc8ccc15a"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+                    }
+                },
+                {
+                    "id": "individual/1/76ced411-ff62-46ce-9e87-2a961e1a161b",
+                    "text": "the individual was receiving a partner allowance immediately before 20 March 1997",
+                    "entity": "individual",
+                    "index": "1",
+                    "children_ids": [
+                        "individual/1/cef1e91d-ca12-4429-9ac8-43f27939ba35"
+                    ],
+                    "reference": {
+                        "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+                    }
+                }
+            ],
+            "children_ids": [
+                "individual/1/76e9a85a-4e66-47a0-a468-ede626135a00",
+                "individual/1/20382ff5-6908-4f1a-98e5-f8c3a62ebe5d",
+                "individual/1/76ced411-ff62-46ce-9e87-2a961e1a161b"
+            ],
+            "reference": {
+                "document": "/System rules/Interpretation/SSA s 43 Qualification.docx"
+            }
+        }
+    ],
+    "children_ids": [
+        "individual/1/97a2734f-7593-46ef-8aed-0e5e3c0d4b0f",
+        "individual/1/8d656cf3-93d4-4932-ac6a-1b6dfdb685f5",
+        "individual/1/2f23e32a-f460-4c6c-aa81-4c0b8a82fe5e",
+        "individual/1/6c68ba1e-a1b9-4e93-830a-5911a280db5f",
+        "individual/1/ac6c77ef-4162-4734-82f7-3a5da0650f39",
+        "individual/1/716a9340-1061-4ae8-bf1e-4005fade862d"
+    ],
+    "reference": {
+        "document": "/Source rules/Legislation/Social Security Act 1991/Part 2.2 - Age pension/Division 1 Subdivision A-Qualification.docx",
+        "line": 7,
+        "title": "SSA s 43(1)"
+    }
+}

@@ -1,0 +1,24 @@
+name: 💬 Question or Discussion
+description: Ask a question about how this approach works or how it might apply to your use case.
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking out the Entitlements Blueprint! If you're curious about how this model might work in your context, or want to understand a specific part of the architecture or rule model, ask away.
+
+  - type: input
+    id: topic
+    attributes:
+      label: What do you want to know more about?
+      placeholder: e.g. rule authoring, integration, audit trails, performance, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: Your question or context
+      placeholder: Let us know what you're working on or where you're getting stuck.
+    validations:
+      required: true

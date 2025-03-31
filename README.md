@@ -110,9 +110,10 @@ The Decisively platform — built by Imminently — powers this entire approach.
 - 📘 Background & project summary ([docs/approach-methodology.md](docs/approach-methodology.md))
 - 🧱 Architecture & integration diagrams ([docs/architecture-overview.md](docs/architecture-overview.md))
 - 📷 Screenshots of tools, UI, and audit reports ([docs/screenshots](docs/screenshots))
-- 🔎 Example audit output ([docs/audit-trail-sample.md](docs/sample.decision.report.json))
+- 🔎 Example audit output ([assets/sample.decision.report.json](assets/sample.decision.report.json))
 - 📋 Example rules ([docs/residency-example.md](docs/residency-example.md))
 - 🧩 How our rule graph works ([docs/rule-graph-explainer.md](docs/rule-graph-explainer.md))
+- ❓ FAQ ([docs/faq.md](docs/faq.md))
 
 ## 💡 Who Should Read This?
 
